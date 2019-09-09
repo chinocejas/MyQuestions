@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "question": "Que me afecta?",
+        "created": "1/9/2019",
+        "rating": "8.5",
+        "answered": "0"
+    },
+    {
+        "id": "2",
+        "question": "Que me molesta de mí?",
+        "created": "1/9/2019",
+        "rating": "8.5",
+        "answered": "0"
+    },
+    {
+        "id": "3",
+        "question": "A que le escapo?",
+        "created": "1/9/2019",
+        "rating": "8.5",
+        "answered": "0"
+    },
+    {
+        "id": "4",
+        "question": "Que es lo mejor que tengo?",
+        "created": "1/9/2019",
+        "rating": "8.5",
+        "answered": "0"
+    }
+]
