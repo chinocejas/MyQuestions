@@ -2,5 +2,5 @@ node_modules/
 package-lock.json
 package.json
 test.txt
-/src/sample.json
+src/sample.json
 src/questions.json
