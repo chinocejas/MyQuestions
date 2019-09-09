@@ -3,3 +3,5 @@ package-lock.json
 package.json
 test.txt
 .gitignore
+src/sample.json
+src/questions.json
