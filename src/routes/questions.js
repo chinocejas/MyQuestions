@@ -45,9 +45,7 @@ router.delete('/questions/:id', async (req,res) => {
             if(err){
                 res.status(500).send({message: 'Ups :( no pudimos borrar tu pregunta.'});
             }else{
-                res.status(200).json(
-                    {message: 'Se ha eliminado la pregunta: '+ id }
-                    )
+                res.status(200).json({message: 'Se ha eliminado la pregunta: '+ id });
             }
         });
     }
@@ -55,22 +53,6 @@ router.delete('/questions/:id', async (req,res) => {
 });
 
 
-router.post('/answer/:id', (req, res) => {
-    let {id} = req.params;
-    let {answer} = req.body;
-    let date = new Date();
-    underscore.each(dbQuestions,(quest,i)=>{
-        if(quest.id == id){
-            quest.answered++;
-        }
-    });
-    
-    res.json({
-        "id_user": "chinwen",
-        "id_quest" : id,
-        "id_answer": answer,
-        "date": date,
-    })
-});
+
 
 module.exports = router ;

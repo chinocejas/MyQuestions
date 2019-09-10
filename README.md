@@ -1,13 +1,1 @@
-correr para inicializar : npm init --yes
-
-para instalar los modulos: npm i express morgan
-
-para reiniciar servidor> npm i nodemon -D (only for dev) para no reiniciar el servidor a cada rato
-
-para correr el servidor: npm run dev 
-
-para remover elemento del arreglo: npm i underscore
-
-para hacer peticiones a otros ws: npm i node-fetch
-
-para la db instalamos : npm install mongoose
+Building
